@@ -1,0 +1,72 @@
+body{
+    background-image: url('op.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+form{
+    padding: 5px;
+    width: 99%;
+    border: solid 2px black;
+    border-radius: 18px;
+}
+form input {
+    border: solid 2px black;
+    outline: none;
+    width: 90%;
+    height: 40px;
+    margin-left: 16px;;
+    background-color: silver;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#message {
+    width: 89.9%;
+    border: solid 2px black;
+    resize: none;
+    height: 110px;
+    background-color: silver;
+    margin-bottom:-50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.5;
+    outline: none;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 15px 10px 15px;
+    border: solid black;
+    margin:5px;
+    &:hover{
+    background-color: yellow;
+    color:red;
+    cursor: pointer;
+    }
+    
+}
+h1{
+    border: solid 3px black;
+    padding-left: 34%;
+    margin-right: 105px;
+} 
+button{
+    margin-top: 50px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left:50%;
+    &:hover{
+        background-color: yellow;
+        color: red;
+        cursor: pointer;
+    }
+}
